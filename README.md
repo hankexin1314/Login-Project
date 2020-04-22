@@ -18,11 +18,11 @@ utils servlet service dao bean
 - C3P0的配置文件
 ### 5.导入项目需要的静态文件
 ### 6.编写LoginServlet
-			//获取用户名和密码
-			//创建servlice并调用方法
-			//判断用户输入的数据在数据库是否存在
-				若存在：  xxx：欢迎回来
-				若不存在：  登录失败
+- 获取用户名和密码
+- 创建service并调用方法
+- 判断用户输入的数据在数据库是否存在
+- 若存在：  xxx：欢迎回来
+- 若不存在：  登录失败
 ### 7.编写LoginService
 			//创建LoginDao
 			//调用dao中的方法
